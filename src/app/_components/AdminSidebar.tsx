@@ -16,6 +16,7 @@ import { FaUsers } from "react-icons/fa";
 import { BsCalendar2EventFill } from "react-icons/bs";
 import { BiSolidDonateBlood } from "react-icons/bi";
 import { SiBlogger } from "react-icons/si";
+import Image from "next/image";
 export function AdminSidebar() {
   const pathname = usePathname();
 
@@ -28,13 +29,21 @@ export function AdminSidebar() {
       <SidebarHeader className="bg-[#FBFBFB]">
         <SidebarMenu>
           <SidebarMenuItem>
-            <SidebarMenuButton size="lg" className="" asChild>
+            <div>
               <Link href="/">
                 <div className="flex flex-col gap-0.5 leading-none">
-                  <span className="text-2xl font-semibold">Logo</span>
+                  <div className="text-2xl font-semibold hover:bg-transparent">
+                    <Image
+                      className="ml-4 p-2"
+                      alt="logo"
+                      src={"http://acmelogos.com/images/logo-1.svg"}
+                      width={150}
+                      height={100}
+                    />
+                  </div>
                 </div>
               </Link>
-            </SidebarMenuButton>
+            </div>
           </SidebarMenuItem>
         </SidebarMenu>
       </SidebarHeader>
