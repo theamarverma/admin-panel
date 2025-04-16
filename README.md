@@ -1,29 +1,42 @@
-# Create T3 App
+# ⚙️ Admin Panel Dashboard
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+A modern, clean, and responsive **Admin Panel** built with [Next.js 14](https://nextjs.org/), [Zustand](https://github.com/pmndrs/zustand), and [shadcn/ui](https://ui.shadcn.com/) — styled with [Tailwind CSS](https://tailwindcss.com/), and fully typed with TypeScript. This dashboard includes full **CRUD functionality** for:
 
-## What's next? How do I make an app with this?
+- 🛒 Products  
+- 👤 Users  
+- 📅 Events  
+- 📝 Blogs  
+- 💰 Donation History (Read-only)
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+This version is designed for internal tools or as a starting point — **authentication is not yet implemented**.
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+---
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Drizzle](https://orm.drizzle.team)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+## 🧪 Tech Stack
 
-## Learn More
+| Tech                 | Description                                      |
+|----------------------|--------------------------------------------------|
+| **Next.js 14**       | App routing, SSR, file-based routing             |
+| **Zustand**          | Lightweight global state management              |
+| **shadcn/ui**        | Component library built on Radix + Tailwind      |
+| **Tailwind CSS**     | Utility-first CSS framework                      |
+| **TypeScript**       | Type-safe development                            |
+| **React Hook Form**  | Flexible form management                         |
+| **Zod**              | Schema-based form validation                     |
+| **React Toastify**   | Toast notifications for feedback                 |
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+---
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
+## ✨ Features
 
-## How do I deploy this?
+- 🔄 Full CRUD operations for key modules
+- 🎨 Theme-aware UI with dark mode support
+- ⚛️ Zustand for managing global state
+- ✅ Form validation with `react-hook-form` + `zod`
+- 🔔 Toasts and feedback via `react-toastify`
+- 📊 Charts and metrics with `recharts`
+- 🧱 Built with modular, reusable `shadcn/ui` components
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+---
+
