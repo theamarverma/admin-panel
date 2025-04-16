@@ -36,7 +36,7 @@ export function AdminSidebar() {
                     <Image
                       className="ml-4 p-2"
                       alt="logo"
-                      src={"http://acmelogos.com/images/logo-1.svg"}
+                      src={"https://acmelogos.com/images/logo-1.svg"}
                       width={150}
                       height={100}
                     />
